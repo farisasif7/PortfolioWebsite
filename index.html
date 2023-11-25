@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- new branch comment -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="cv.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <a href="index.html" onclick="navigateTo('index.html')">Home</a>
+      <a href="projects.html" onclick="navigateTo('projects.html')">Projects</a>
+      <a href="education.html" onclick="navigateTo('education.html')"
+        >Courses</a
+      >
+      <a href="certificates.html" onclick="navigateTo('certificates.html')"
+        >Certificates</a
+      >
+    </nav>
+    <div class="top-container">
+      <!-- <img class="top-cloud" src="images/cloud.png" alt="cloud-img"> -->
+      <h1>I'm Faris Asif.</h1>
+      <h2>a computer scientist.</h2>
+      <!-- <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img"> -->
+      <!-- <img src="images/signature1.png" alt="mountain-img"> -->
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="myprofile" src="images\mypic.jpeg" alt="faris-img" />
+        <h2>Hello!</h2>
+        <p class="intro">
+          I am a Computer Scientist. I'm currently completing my bachelor's
+          degree in CS from Fast National University.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class="computer-scientist"
+            src="images\computer-scientist.png"
+            alt="computer-scientist"
+          />
+          <h3>Computer Science</h3>
+          <p>
+            From a young age, I have been interested in programming. I've taken
+            computer science courses on data structures, operating systems,
+            assembly language, object-oriented programming, and programming
+            fundamentals. I understand the fundamentals of Python, flutter, and
+            data science. Throughout these courses, I have primarily coded in C
+            and C++.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="problem-solving"
+            src="images\problem-solving.png"
+            alt="problem-solving"
+          />
+          <h3>Problem-Solving</h3>
+          <p>
+            Since I began programming, it has been imperative that I possess
+            strong problem-solving abilities. To begin the review process, the
+            necessary data had to be gathered. After that, I steadily improved
+            my capacity for problem-solving. It was necessary for me to put a
+            decent plan into action in order to optimize the effectiveness of my
+            solution. One of the skills I believe I have improved through time
+            in my learning is problem solving.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Contact me at any moment.</h3>
+        <p class="contact-message">
+          I'm sure I'll respond as quickly as I can.
+        </p>
+        <a class="btn" href="mailto:farisbinasif2016@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/faris-asif-523396199/"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://github.com/farisasif7">Github</a>
+      <a class="footer-link" href="https://twitter.com/FarisAsif7">Twitter</a>
+      <p class="copyright">© 2023 Faris Asif</p>
+    </div>
+
+    <script>
+      // JavaScript function to handle redirection
+      function navigateTo(url) {
+        window.location.href = url;
+      }
+    </script>
+  </body>
+</html>
